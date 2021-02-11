@@ -1,6 +1,6 @@
 # everify-nextauth-two-factor
 
-** This is the codebase for an [Everify Guide article about adding two-factor authentication to NextAuth.js](https://everify.dev/blog/two-factor-authentication-for-nextjs) **.
+**This is the codebase for an [Everify Guide article about adding two-factor authentication to NextAuth.js](https://everify.dev/blog/two-factor-authentication-for-nextjs)**.
 
 
 In this guide, we will use Everify to implement two-factor authentication in a NextJS app. Everify offers an easy-to-use API for SMS-based verification. It is free to use for development purposes and behind the scenes it handles SMS routing, automatic message translation, rate limiting and more. The best thing is: We get all those features with just two function calls: `everify.startVerification` and `everify.checkVerification`! The finished code for this guide can be found [here](https://github.com/everify/everify-nextauth-two-factor).
