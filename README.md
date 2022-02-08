@@ -217,7 +217,7 @@ authorize: async ({ username, password, verificationCode }) => {
   }
   const { status } = await everify.checkVerification({
     phoneNumber: user.phoneNumber,
-    verificationCode,
+    code: verificationCode,
   })
   return status === "SUCCESS" ? user : null
 },
